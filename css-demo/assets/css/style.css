@@ -1,0 +1,45 @@
+/* --------- Color Scheme --------- */
+#8449BF
+#4E458C
+#3E3C73
+#292840
+#4EBFD9
+
+/* --------- Google Font --------- */
+DotGothic16
+
+/* -------- Box Sizing -------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* -------- Global Styles -------- */
+
+body{
+    margin:0;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+header.primary{
+    background-color:#3E3C73;
+    text-align:center;
+    color:#8449BF;
+    text-shadow:2px 2px #000000;
+    /* Long Form */
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:20px;
+    padding-left:40px;
+    /* T,R,B,L */
+    padding:40px 40px 20px 40px;
+    
+    /* Top/Bottom Right/Left */
+    padding: 20px 40px;
+}
