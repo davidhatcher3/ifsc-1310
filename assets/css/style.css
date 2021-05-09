@@ -1,7 +1,55 @@
 /*Course Homepage Stylesheet*/
+/* -------- Utility Classes -------- */
 
-body{
-    
-    background-color:#66cdaa;
-    
+.container {
+  width: 80vw;
+  margin: 40px auto;
 }
+
+.img-right {
+  float: right;
+  margin: 10px 0 10px 20px;
+  border: 1px solid #3E3C73;
+  padding: 5px;
+}
+
+.img-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+  border: 1px solid #3E3C73;
+  padding: 5px;
+}
+
+/* -------- Global Styles -------- */
+body{
+background-color: #26c2ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c8002f' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%238f4700' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23b6004e' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%236e6300' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23990069' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%234f751f' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%236e007c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23338051' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23301d85' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232a8879' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ h1{
+  text-decoration: underline overline #FFFFFF;
+  text-align: center;
+  
+}
+
+h2{
+  text-decoration: underline overline #FFFFFF;
+  text-align: center;
+}
+
+
+
+
+
